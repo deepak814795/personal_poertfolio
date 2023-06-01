@@ -1,0 +1,60 @@
+.about{
+    height:fit-content;
+    background-color: black;
+   // background-image: url(../../images/back3.jpg);
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+.about-col-1 img{
+    width: 75%;
+    border-radius: 45px;
+}
+.about-col-2{
+    flex-basis: 55%;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 1%;
+    color: whitesmoke;
+}
+.about-col-2 p{
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 10%;
+}
+.about-col-2 p{
+    text-decoration:none;
+    color: gray;
+    font-weight:10;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+.tab-titles{
+    width: 100%;
+    margin: 20px 0 40px;
+    font-weight: 900;
+    font-style: oblique;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    position:relative
+}
+.Education ul li span{
+    color: #c04545;
+    font-size: 25px;
+    font-weight: 1000;
+}
